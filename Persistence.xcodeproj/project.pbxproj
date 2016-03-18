@@ -14,6 +14,7 @@
 		73D0DA9B1C9A08320070E3C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D0DA991C9A08320070E3C4 /* LaunchScreen.storyboard */; };
 		73D0DAA61C9A08320070E3C4 /* PersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D0DAA51C9A08320070E3C4 /* PersistenceTests.swift */; };
 		73D0DAB11C9A08320070E3C4 /* PersistenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D0DAB01C9A08320070E3C4 /* PersistenceUITests.swift */; };
+		BC077CD81C9B93D500B1683A /* FourLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC077CD71C9B93D500B1683A /* FourLines.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		73D0DAAC1C9A08320070E3C4 /* PersistenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D0DAB01C9A08320070E3C4 /* PersistenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceUITests.swift; sourceTree = "<group>"; };
 		73D0DAB21C9A08320070E3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC077CD71C9B93D500B1683A /* FourLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourLines.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				73D0DA971C9A08320070E3C4 /* Assets.xcassets */,
 				73D0DA991C9A08320070E3C4 /* LaunchScreen.storyboard */,
 				73D0DA9C1C9A08320070E3C4 /* Info.plist */,
+				BC077CD71C9B93D500B1683A /* FourLines.swift */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73D0DA931C9A08320070E3C4 /* ViewController.swift in Sources */,
+				BC077CD81C9B93D500B1683A /* FourLines.swift in Sources */,
 				73D0DA911C9A08320070E3C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				73D0DAB71C9A08320070E3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73D0DAB81C9A08320070E3C4 /* Build configuration list for PBXNativeTarget "PersistenceTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				73D0DABA1C9A08320070E3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73D0DABB1C9A08320070E3C4 /* Build configuration list for PBXNativeTarget "PersistenceUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				73D0DABD1C9A08320070E3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
